@@ -1,5 +1,8 @@
 class AlienDetector
-  KNOWN_SPACE_INVADERS = ["--o-----o--", "---o---o---", "--ooooooo--", "-oo-ooo-oo-", "ooooooooooo", "o-ooooooo-o", "o-o-----o-o", "---oo-oo---", "---oo---", "--oooo--", "-oooooo-", "oo-oo-oo", "oooooooo", "--o--o--", "-o-oo-o-", "o-o--o-o"]
+  KNOWN_SPACE_INVADERS = [
+      "--o-----o--", "---o---o---", "--ooooooo--", "-oo-ooo-oo-", "ooooooooooo",
+      "o-ooooooo-o", "o-o-----o-o", "---oo-oo---", "---oo---", "--oooo--",
+      "-oooooo-", "oo-oo-oo", "oooooooo", "--o--o--", "-o-oo-o-", "o-o--o-o"]
 
   def self.detect_aliens(text)
     aliens_found = 0
